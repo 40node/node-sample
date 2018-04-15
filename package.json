@@ -1,0 +1,15 @@
+{
+  "name": "node01",
+  "version": "0.1.0",
+  "description": "Express DEMO",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "しょっさん",
+  "license": "ISC"
+}
