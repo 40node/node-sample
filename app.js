@@ -1,7 +1,6 @@
 // Express の利用宣言
 const express = require('express');
 const app = express();
-const port = 5000;
 
 // URIごとの表示メッセージを定義
 app.get('/', (req, res) => res.send('Hello World!'));
@@ -12,4 +11,4 @@ app.get('/query', (req, res) => res.send('query: ' + req.query.name));
 app.use((req, res) => res.status(404).send("Page not found"));
 
 // 指定したポートでサーバへの受付を開始
-app.listen(port);
+app.listen(process.env.PORT);
